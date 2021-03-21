@@ -6,7 +6,7 @@ exports.sessionController = (req, res) =>{
     headers:
      { 'Cache-Control': 'no-cache',
        'Content-Type': 'multipart/form-data' },
-    formData: { apiKey: '433a8e1ed0dc4495974a9f95018eed8f' , autocapture: 'true', liveness: 'true', mode:0, liveness_passive: 'true'} };
+    formData: { apiKey: '433a8e1ed0dc4495974a9f95018eed8f' , autocapture: 'true', liveness: 'true', mode:1, liveness_passive: 'true'} };
   
     request(options, function (error, response, body) {
       if (error) throw new Error(error);
